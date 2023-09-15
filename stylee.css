@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar {
+	position: absolute;
+	background-color: black;
+	color: white;
+
+	transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+	padding: 45px;
+	height: 100vh;
+}
+
+.sidebar nav li {
+	list-style: none;
+	font-size: 25px;
+	padding: 30px 0;
+}
+
+.sidebar nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+.sidebar nav li a:hover {
+	text-decoration: underline;
+	color: beige;
+}
+
+.main {
+	/*background-color: whitesmoke;*/
+	width: 90vw;
+}
+
+.container {
+	display: flex;
+	font-family: 'Mukta', sans-serif;
+}
+
+
+.infocontainer {
+	/* background-color: navajowhite;*/
+	height: 40vh;
+	width: 71vw;
+	margin: 90px auto;
+	display: flex;
+	justify-content: space-around;
+	text-align: left;
+
+}
+
+.hello {
+	font-size: 85px;
+	font-family: 'Encode Sans SC', sans-serif;
+}
+
+.name {
+	font-size: 45px;
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+.about {
+	font-size: 15px;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+.moreabout {
+	font-size: 10px;
+	font-family: 'Source Code Pro', monospace;
+	margin: 8px 8px;
+}
+
+
+button {
+	margin-top: 20px;
+}
+
+.button button {
+	background-color: cadetblue;
+	padding: 10px;
+	margin: 0px 9px;
+	border-radius: 24px;
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+}
+
+.button button:hover {
+	background-color: white;
+	color: cadetblue;
+}
+
+.devinfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.devpic img {
+	height: 40vh;
+
+}
+
+
+
+.sidebargo {
+	transform: translate(-443px, 0px);
+	position: absolute;
+
+}
+
+
+.icons {
+	position: absolute;
+	cursor: pointer;
+	top: 10px;
+	left: 10px;
+}
+
+.cross {
+	margin-left: 160px;
+	margin-top: 5px;
+}
+
+@media (max-width: 1615px) {
+
+	.devpic {
+		display: none;
+	}
+
+	/*.sidebar {
+		transform: translate(-443px, 0px);
+		position: absolute;
+
+	}*/
+}
